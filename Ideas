@@ -1,0 +1,281 @@
+# Ideas 
+1. Flappy Bird 
+2. Drawing software that identifies a number inr eal time (MNIST) 
+3. Create a user interface for the hot/cold 
+4. Tic Tac Toe -- have each coordinate correspond with a number (O = -1 and X = +1, then check each column and row for the sums? and what about the diagonals? then use some kind of for loop? then to track which are gotten rid of, remove items from a list and check if the number in the list still exists )
+5. Build a timer 
+6. Hangman 
+
+
+
+Algorithm-Focused Python Challenges
+
+1. Sorting Race
+   Implement:
+
+* Bubble Sort
+* Insertion Sort
+* Merge Sort
+
+Generate random lists and compare their speeds.
+
+Concepts: time complexity, O(n²) vs O(n log n)
+
+2. Binary Search
+   Write a binary search function and compare it to linear search on increasingly large lists.
+
+Concepts: divide and conquer, logarithmic growth
+
+3. Two-Sum Challenge
+   Given a list and target value, find two numbers that add to the target.
+
+First use brute force, then optimize with a hash table.
+
+Concepts: hash maps, optimization
+
+4. Duplicate Detection
+   Find whether a list contains duplicates.
+
+Implement:
+
+* Nested loops
+* Sorting-based approach
+* Set-based approach
+
+Compare runtimes.
+
+Concepts: sets, complexity analysis
+
+5. Maze Solver
+   Represent a maze as a grid and solve it using:
+
+* Depth-First Search (DFS)
+* Breadth-First Search (BFS)
+
+Concepts: graph traversal
+
+6. Shortest Path
+   Given a map of cities and distances, find the shortest route.
+
+Implement Dijkstra's algorithm.
+
+Concepts: graphs, priority queues
+
+7. Recursion Playground
+   Implement:
+
+* Factorial
+* Fibonacci
+* Binary tree traversal
+
+Compare recursive and iterative versions.
+
+Concepts: recursion, stack frames
+
+8. Parentheses Checker
+   Determine whether strings like "()[]{}" are valid.
+
+Use a stack.
+
+Concepts: stacks
+
+9. Autocomplete
+   Given a list of words, return all words starting with a prefix.
+
+First use a simple scan, then build a trie.
+
+Concepts: trees, data structures
+
+10. Sudoku Validator
+    Check whether a Sudoku board is valid.
+
+Concepts: sets, constraint checking
+
+11. Top-K Elements
+    Find the largest k numbers in a list.
+
+Compare:
+
+* Sorting
+* Heap-based solution
+
+Concepts: heaps, efficiency
+
+12. Word Ladder
+    Transform one word into another by changing one letter at a time.
+
+Use BFS to find the shortest transformation.
+
+Concepts: graph search
+
+13. Conway's Game of Life
+    Simulate generations of cells following simple rules.
+
+Concepts: grids, state transitions
+
+14. Recommendation Engine
+    Given users and movie ratings, recommend movies using similarity scores.
+
+Concepts: nearest neighbors, similarity metrics
+
+15. N-Queens
+    Place N queens on a chessboard without attacks.
+
+Use backtracking.
+
+Concepts: recursion, search trees
+
+
+Binary Search
+Two-Sum
+Duplicate Detection
+Parentheses Checker (Stacks)
+Recursion Playground
+Maze Solver (DFS/BFS)
+Top-K Elements (Heaps)
+Autocomplete (Trie)
+Shortest Path (Dijkstra)
+N-Queens (Backtracking)
+By the end, you'll have touched most of the fundamental algorithmic techniques used in coding interviews and computer science courses.
+
+
+
+Easy Python Game Coding Challenge Ideas
+
+1. Guess the Number
+   The computer picks a number and the player guesses it.
+
+Challenge extensions:
+
+* Limited guesses
+* Difficulty levels
+* High score tracking
+
+2. Hangman
+   Guess letters to reveal a hidden word.
+
+Challenge extensions:
+
+* Categories
+* ASCII art hangman
+* Hints
+
+3. Rock-Paper-Scissors
+   Play against the computer.
+
+Challenge extensions:
+
+* Best of 5
+* AI that learns your patterns
+* Rock-Paper-Scissors-Lizard-Spock
+
+4. Blackjack
+   Play against a dealer.
+
+Challenge extensions:
+
+* Betting system
+* Multiple decks
+* Statistics tracking
+
+5. Tic-Tac-Toe
+   Two-player or versus computer.
+
+Challenge extensions:
+
+* Unbeatable AI (Minimax)
+* Larger boards
+
+6. Snake (Terminal Version)
+   Use WASD to move around and eat food.
+
+Challenge extensions:
+
+* Obstacles
+* Scoreboard
+
+7. Word Scramble
+   The program scrambles a word and the player must guess it.
+
+Challenge extensions:
+
+* Timer
+* Difficulty levels
+
+8. Higher or Lower
+   Guess whether the next card will be higher or lower.
+
+Challenge extensions:
+
+* Streak tracking
+* Multiple decks
+
+9. Minesweeper
+   Create a small text-based Minesweeper board.
+
+Challenge extensions:
+
+* Different board sizes
+* Flagging mines
+
+10. Memory Matching Game
+    Flip cards and find matching pairs.
+
+Challenge extensions:
+
+* Timed mode
+* Larger boards
+
+11. Battleship
+    Play against the computer on a small grid.
+
+Challenge extensions:
+
+* Smarter AI
+* Different ship layouts
+
+12. Wordle Clone
+    Recreate Wordle in Python.
+
+Challenge extensions:
+
+* Custom dictionaries
+* Hard mode
+
+13. Trivia Game
+    Load questions from a file and keep score.
+
+Challenge extensions:
+
+* Categories
+* Multiplayer
+
+14. Dungeon Escape
+    Move through rooms collecting items and avoiding traps.
+
+Challenge extensions:
+
+* Inventory system
+* Randomized maps
+
+15. Zombie Survival
+    Each turn, zombies move toward the player.
+
+Challenge extensions:
+
+* Weapons
+* Multiple zombie types
+
+
+For friendly competition, I'd especially recommend:
+🏆 Wordle Clone – lots of room for creativity.
+🏆 Blackjack – everyone knows the rules.
+🏆 Dungeon Escape – easy to start, endless ways to extend.
+🏆 Higher or Lower – deceptively simple but fun.
+🏆 Zombie Survival – teaches basic AI/pathfinding.
+🏆 Tic-Tac-Toe AI – compare whose computer player is stronger.
+A fun format is to start with the same prompt (e.g., "Build Blackjack in 90 minutes"), then at the end compare:
+Features added
+Code quality
+User experience
+Number of bugs
